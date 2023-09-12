@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  font-family: "san Serif";
+}
+
+.shopify-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 767px) {
+  .shopify-container {
+    flex-direction: row;
+  }
+}
+
+.shopify-logo {
+  height: 50px;
+  width: 120px;
+}
+
+.start {
+  width: 130px;
+  color: #fff;
+  background-color: #000000;
+  border-radius: 20px;
+}
+
+.inr {
+  height: 30px;
+  padding: 0;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.rupee {
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  list-style-type: none;
+  font-weight: 500;
+}
+
+.check {
+  color: green;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.free {
+  color: #fff;
+  width: 100%;
+  background-color: #000000;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.most-container {
+  border: 5px solid #75e09e;
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 75vh;
+}
+
+h6 {
+  font-weight: 800;
+  width: 100%;
+  background-color: #b1f0d1;
+  text-align: center;
+  margin: 2vh 0 2vh 0;
+  padding: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .web {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .mobile {
+    display: none;
+  }
+}
+
+.btns {
+  width: 32%;
+  padding: 13px;
+}
+
+.selected-button {
+  border-top: 5px solid #75e09e;
+}
+
+.basic,
+.shopify,
+.advance {
+  display: flex;
+  flex-direction: column;
+}
